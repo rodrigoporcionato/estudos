@@ -1,5 +1,5 @@
 
-comandos do docker:
+#comandos do docker:
 
 ## listar meus containers
 docker container ls -a
@@ -12,6 +12,8 @@ docker stop nome_container
 
 ##criar um container com nome myrabbit:
 docker run -d --hostname my-rabbit --name myrabbit -p 8080:15672 rabbitmq:3-management
+
+mais info: https://store.docker.com/images/rabbitmq
 
 ##ver se esta rodando
 docker logs myrabbit
