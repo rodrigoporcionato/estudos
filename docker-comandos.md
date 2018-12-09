@@ -24,6 +24,16 @@ acessar o admin:
 http://localhost:8080/#/ ou http://host-ip:8080 no browser.
 
 
+# Remover todas as imagens do docker
+`
+#!/bin/bash
+# Delete all containers
+docker rm $(docker ps -a -q)
+# Delete all images
+docker rmi $(docker images -q)
+
+`
+
 `docker build -t friendlyhello .  # Create image using this directory's Dockerfile
 docker run -p 4000:80 friendlyhello  # Run "friendlyname" mapping port 4000 to 80
 docker run -d -p 4000:80 friendlyhello         # Same thing, but in detached mode
