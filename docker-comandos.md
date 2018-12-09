@@ -24,7 +24,7 @@ acessar o admin:
 http://localhost:8080/#/ ou http://host-ip:8080 no browser.
 
 
-docker build -t friendlyhello .  # Create image using this directory's Dockerfile
+`docker build -t friendlyhello .  # Create image using this directory's Dockerfile
 docker run -p 4000:80 friendlyhello  # Run "friendlyname" mapping port 4000 to 80
 docker run -d -p 4000:80 friendlyhello         # Same thing, but in detached mode
 docker container ls                                # List all running containers
@@ -39,4 +39,6 @@ docker image rm $(docker image ls -a -q)   # Remove all images from this machine
 docker login             # Log in this CLI session using your Docker credentials
 docker tag <image> username/repository:tag  # Tag <image> for upload to registry
 docker push username/repository:tag            # Upload tagged image to registry
-docker run username/repository:tag   
+docker run username/repository:tag`
+
+
