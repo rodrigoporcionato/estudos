@@ -26,8 +26,17 @@ http://localhost:8080/#/ ou http://host-ip:8080 no browser.
 
 # Remover todas as imagens do docker
 
+https://techoverflow.net/2013/10/22/docker-remove-all-images-and-containers/
+
 #!/bin/bash
-# Delete all containers
+`# Delete all containers
 docker rm $(docker ps -a -q)
-# Delete all images
+`# Delete all images
 docker rmi $(docker images -q)
+
+
+
+
+
+
+
