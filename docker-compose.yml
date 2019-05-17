@@ -1,0 +1,52 @@
+
+# execute docker-compose -f up -d
+version: '3.4'
+
+services:        
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    container_name: btg-rabbitmq-dev
+    environment:
+      RABBITMQ_ERLANG_COOKIE: "SWQOKODSQALRPCLNMEQG"
+      RABBITMQ_DEFAULT_USER: "rabbitmq"
+      RABBITMQ_DEFAULT_PASS: "rabbitmq"
+      RABBITMQ_DEFAULT_VHOST: "/"
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    labels:
+      NAME: "btg-dev-rabbitmq"
+  dynamo:
+    image: "amazon/dynamodb-local"
+    container_name: btg-dynamo-dev
+    environment:
+      - AWS_ACCESS_KEY_ID=0
+      - AWS_SECRET_ACCESS_KEY=0
+      - AWS_DEFAULT_REGION=eu-central-1
+    labels:
+        NAME: "effectlab-dynamodb-local"
+    ports:
+      - "8000:8000"      
+  db:
+   image: mysql
+   container_name: effectlab-mysql-dev
+   command: --default-authentication-plugin=mysql_native_password
+   restart: always
+   environment:     
+     MYSQL_DATABASE: 'db'
+     MYSQL_USER: 'effectlab'
+     MYSQL_PASSWORD: 'effectlab'
+     MYSQL_ROOT_PASSWORD: 'password'
+     MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+   ports:
+      # <Port exposed> : < MySQL Port running inside container>
+      - '3306:3306'
+   expose:
+      # Opens port 3306 on the container! importante pois sem expor nao funciona a conexao!
+      - '3306'
+      # Where our data will be persisted
+   volumes:
+      - my-db:/var/lib/mysql
+# Names our volume
+volumes:
+  my-db:      
