@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-22T13:57:04.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="kkSyy3gsfWe660qZo8jQ" version="12.5.5" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-01-22T13:59:45.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="FedjcB8nCSwX-wINu1dE" version="12.5.5" type="github" pages="2">
   <diagram name="Fluxo Dispatch" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -75,57 +75,60 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PYx4gIAmUXT8T4D9sgRm" name="Projetos e recursos">
-    <mxGraphModel dx="4074" dy="3381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3921" dy="3124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-0"/>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-1" parent="7LBnpX-7nwQ7NDqRXAh6-0"/>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-2300" y="-2420" width="830" height="530" as="geometry"/>
+          <mxGeometry x="-2320" y="-2370" width="830" height="530" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-2" value="MABIS.Shared.Bot.Integration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-2260" y="-2340" width="240" height="60" as="geometry"/>
+          <mxGeometry x="-2280" y="-2290" width="240" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-3" value="MABIS.Shared.Configuration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-2260" y="-2260" width="240" height="60" as="geometry"/>
+          <mxGeometry x="-2280" y="-2210" width="240" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-4" value="MABIS.Shared.Dashboards" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-2260" y="-2190" width="240" height="60" as="geometry"/>
+          <mxGeometry x="-2280" y="-2140" width="240" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-5" value="MABIS.Shared.Dispatch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-2260" y="-2110" width="230" height="60" as="geometry"/>
+          <mxGeometry x="-2280" y="-2060" width="230" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-6" value="MABIS.Shared.FNOL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-2260" y="-2030" width="230" height="60" as="geometry"/>
+          <mxGeometry x="-2280" y="-1980" width="230" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-7" value="MABIS.Shared.Framework" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-1990" y="-2340" width="230" height="60" as="geometry"/>
+          <mxGeometry x="-2010" y="-2290" width="230" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-9" value="MABIS.Shared.Integration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-1990" y="-2260" width="230" height="60" as="geometry"/>
+          <mxGeometry x="-2010" y="-2210" width="230" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-10" value="MABIS.Shared.Localization" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-2000" y="-2190" width="230" height="60" as="geometry"/>
+          <mxGeometry x="-1450" y="-2190" width="230" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-11" value="MABIS.Shared.Log" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-1990" y="-2110" width="230" height="60" as="geometry"/>
+          <mxGeometry x="-2010" y="-2140" width="230" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-12" value="MABIS.Shared.Reflection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-1990" y="-2030" width="230" height="60" as="geometry"/>
+          <mxGeometry x="-2010" y="-2060" width="230" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-13" value="MABIS.Shared.Validation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-1730" y="-2340" width="230" height="60" as="geometry"/>
+          <mxGeometry x="-2010" y="-1980" width="230" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-14" value="MABIS.Shared.Web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-1740" y="-2260" width="230" height="60" as="geometry"/>
+          <mxGeometry x="-1750" y="-2290" width="230" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7LBnpX-7nwQ7NDqRXAh6-1" source="7LBnpX-7nwQ7NDqRXAh6-15" target="7LBnpX-7nwQ7NDqRXAh6-16">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-15" value="&lt;font style=&quot;font-size: 36px&quot;&gt;Mabis.Infrastructure&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9933;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-2080" y="-1810" width="390" height="70" as="geometry"/>
+          <mxGeometry x="-2100" y="-1760" width="390" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="7LBnpX-7nwQ7NDqRXAh6-18" value="&lt;font style=&quot;font-size: 36px&quot;&gt;Proposta de mudança&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
-          <mxGeometry x="-2260" y="-2390" width="370" height="30" as="geometry"/>
+          <mxGeometry x="-2310" y="-2450" width="370" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="7LBnpX-7nwQ7NDqRXAh6-21" value="Localization deveria ir para área de serviços ou API." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="7LBnpX-7nwQ7NDqRXAh6-1">
+          <mxGeometry x="-1450" y="-2115" width="290" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
