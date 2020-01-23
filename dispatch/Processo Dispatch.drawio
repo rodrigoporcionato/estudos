@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-23T17:39:57.147Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="7Lj1soN0hRG4LY7P9cOp" version="12.5.6" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-01-23T17:40:27.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="li5AgfysyiEw5WFHL4Lq" version="12.5.6" type="github" pages="2">
   <diagram name="Fluxo Dispatch" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1100" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -26,13 +26,13 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="i73kVnWp1QOreGrYNFan-23" value="NOVA SOLICITACAO" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i73kVnWp1QOreGrYNFan-21">
-          <mxGeometry x="56.25" y="40" width="152.5" height="40" as="geometry"/>
+          <mxGeometry x="40" y="40" width="152.5" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="i73kVnWp1QOreGrYNFan-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i73kVnWp1QOreGrYNFan-21" source="i73kVnWp1QOreGrYNFan-25" target="i73kVnWp1QOreGrYNFan-33">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="i73kVnWp1QOreGrYNFan-25" value="ACEITO ANTES DE X MINUTOS? ou Recusa" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i73kVnWp1QOreGrYNFan-21">
-          <mxGeometry x="72.5" y="120" width="120" height="60" as="geometry"/>
+          <mxGeometry x="56.25" y="120" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="i73kVnWp1QOreGrYNFan-26" value="atendimento ja aceito" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="i73kVnWp1QOreGrYNFan-21">
           <mxGeometry x="-29" y="220" width="130" height="20" as="geometry"/>
@@ -69,7 +69,7 @@
         </mxCell>
         <mxCell id="i73kVnWp1QOreGrYNFan-38" value="Recusa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="i73kVnWp1QOreGrYNFan-37">
           <mxGeometry x="0.1818" relative="1" as="geometry">
-            <mxPoint x="-33.47" y="-0.25" as="offset"/>
+            <mxPoint x="-11.669999999999998" y="-0.33" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="i73kVnWp1QOreGrYNFan-54" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="i73kVnWp1QOreGrYNFan-1" source="i73kVnWp1QOreGrYNFan-51" target="i73kVnWp1QOreGrYNFan-42">
