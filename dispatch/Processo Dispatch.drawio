@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-23T17:54:35.470Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="wT4jjw1sDgX1f4LlME1E" version="12.5.6" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-01-23T18:06:40.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="_XvE0RvD381pZ93s_g21" version="12.5.6" type="github" pages="2">
   <diagram name="Fluxo Dispatch" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1100" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry x="40" y="30" width="152.5" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="i73kVnWp1QOreGrYNFan-25" value="ACEITO ANTES DE X MINUTOS? ou Recusa" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="i73kVnWp1QOreGrYNFan-21">
-          <mxGeometry x="56.25" y="120" width="120" height="80" as="geometry"/>
+          <mxGeometry x="56.25" y="130" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="i73kVnWp1QOreGrYNFan-26" value="atendimento ja aceito" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="i73kVnWp1QOreGrYNFan-21">
           <mxGeometry x="-29" y="220" width="130" height="20" as="geometry"/>
