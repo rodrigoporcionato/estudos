@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-24T19:19:55.462Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="fNIVeyS3loE32uS8G6pr" version="12.5.6" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-01-24T19:22:27.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="kpx8zbuQPXDEwa6iZYO0" version="12.5.6" type="github" pages="3">
   <diagram name="Fluxo Dispatch" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -254,12 +254,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g-W5R2MN9yb0b111BdQD" name="Fluxo por processo">
-    <mxGraphModel dx="1021" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1080" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="3pn0uI4DAiOF2mvPB1Z_-0"/>
         <mxCell id="3pn0uI4DAiOF2mvPB1Z_-1" parent="3pn0uI4DAiOF2mvPB1Z_-0"/>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+          <mxGeometry x="630" y="176.88" width="440" height="650" as="geometry"/>
+        </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
-          <mxGeometry x="570" y="170" width="440" height="650" as="geometry"/>
+          <mxGeometry x="150" y="176.88" width="440" height="650" as="geometry"/>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-0" value="queue" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
           <mxGeometry x="130" y="55" width="90" height="60" as="geometry"/>
@@ -306,10 +309,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-13" value="DispatchEventTryDispatch" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
-          <mxGeometry x="610" y="195" width="180" height="95" as="geometry"/>
+          <mxGeometry x="720" y="197.5" width="180" height="95" as="geometry"/>
         </mxCell>
-        <mxCell id="-OVT1C5cUAzTDpiUpc-V-17" value="Service Bus API" style="text;html=1;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
-          <mxGeometry x="570" y="140" width="110" height="30" as="geometry"/>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-17" value="Service Bus API" style="text;html=1;fontStyle=1" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+          <mxGeometry x="960" y="176.88" width="110" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3pn0uI4DAiOF2mvPB1Z_-1" source="-OVT1C5cUAzTDpiUpc-V-19" target="-OVT1C5cUAzTDpiUpc-V-20">
           <mxGeometry relative="1" as="geometry"/>
@@ -319,6 +322,9 @@
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-20" value="disp.trydisp.ret" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
           <mxGeometry x="200" y="342.5" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-23" value="Message Bus / rabbitmq" style="text;html=1;fontStyle=1" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+          <mxGeometry x="440" y="175" width="110" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
