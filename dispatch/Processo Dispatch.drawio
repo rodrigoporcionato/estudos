@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-24T19:27:48.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="9fSXCqVbL-4jOi8mVfHN" version="12.5.6" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-01-24T19:29:12.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="CCtR2a7FMgG0oCRs5Ge6" version="12.5.6" type="github" pages="3">
   <diagram name="Fluxo Dispatch" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -259,10 +259,10 @@
         <mxCell id="3pn0uI4DAiOF2mvPB1Z_-0"/>
         <mxCell id="3pn0uI4DAiOF2mvPB1Z_-1" parent="3pn0uI4DAiOF2mvPB1Z_-0"/>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
-          <mxGeometry x="630" y="240" width="340" height="650" as="geometry"/>
+          <mxGeometry x="630" y="240" width="340" height="700" as="geometry"/>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
-          <mxGeometry x="250" y="235" width="360" height="650" as="geometry"/>
+          <mxGeometry x="250" y="235" width="360" height="715" as="geometry"/>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-0" value="queue" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
           <mxGeometry x="130" y="55" width="90" height="60" as="geometry"/>
@@ -273,8 +273,8 @@
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-4" value="application" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
           <mxGeometry x="40" y="50" width="70" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="-OVT1C5cUAzTDpiUpc-V-5" value="Try Dispatch Event" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
-          <mxGeometry x="60" y="220" width="120" height="20" as="geometry"/>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-5" value="Dispatch events" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+          <mxGeometry x="60" y="190" width="100" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3pn0uI4DAiOF2mvPB1Z_-1" source="-OVT1C5cUAzTDpiUpc-V-6" target="-OVT1C5cUAzTDpiUpc-V-8">
           <mxGeometry relative="1" as="geometry">
@@ -309,7 +309,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-13" value="DispatchEventTryDispatch" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
-          <mxGeometry x="690" y="262.5" width="170" height="97.5" as="geometry"/>
+          <mxGeometry x="690" y="267.5" width="170" height="97.5" as="geometry"/>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-17" value="API consummer BUS" style="text;html=1;fontStyle=1" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
           <mxGeometry x="636" y="240" width="110" height="30" as="geometry"/>
