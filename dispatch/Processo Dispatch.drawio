@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-24T18:55:44.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="zgOnEeiwbgzy8GMPWjPW" version="12.5.6" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-01-24T19:00:02.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="7nyOAgtfUK-dac0lb5lW" version="12.5.6" type="github" pages="3">
   <diagram name="Fluxo Dispatch" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -258,6 +258,35 @@
       <root>
         <mxCell id="3pn0uI4DAiOF2mvPB1Z_-0"/>
         <mxCell id="3pn0uI4DAiOF2mvPB1Z_-1" parent="3pn0uI4DAiOF2mvPB1Z_-0"/>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-0" value="queue" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+          <mxGeometry x="130" y="55" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-1" value="Exchange" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+          <mxGeometry x="240" y="55" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-4" value="application" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+          <mxGeometry x="40" y="50" width="70" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-5" value="Try Dispatch Event" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+          <mxGeometry x="50" y="220" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3pn0uI4DAiOF2mvPB1Z_-1" source="-OVT1C5cUAzTDpiUpc-V-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="305" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-6" value="mabis" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+          <mxGeometry x="50" y="265" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-8" value="mab.disp.trydisp" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+          <mxGeometry x="190" y="250" width="140" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-9" value="Consumer" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+          <mxGeometry x="330" y="50" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-10" value="Identify items in bus" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+          <mxGeometry x="20" y="10" width="120" height="20" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
