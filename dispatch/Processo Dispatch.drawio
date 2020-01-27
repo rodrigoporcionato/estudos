@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-27T19:21:24.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="hp2OauH00Cvw_8uoLhVm" version="12.5.6" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-01-27T21:00:26.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="wR9EOyz2g5cjt9LANnKt" version="12.5.6" type="github" pages="3">
   <diagram name="Fluxo Dispatch" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -254,7 +254,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g-W5R2MN9yb0b111BdQD" name="Fluxo por processo">
-    <mxGraphModel dx="973" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1145" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="3pn0uI4DAiOF2mvPB1Z_-0"/>
         <mxCell id="3pn0uI4DAiOF2mvPB1Z_-1" parent="3pn0uI4DAiOF2mvPB1Z_-0"/>
@@ -361,7 +361,7 @@
           <mxGeometry x="293" y="480" width="90" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-31" value="Web Socket,(to be definer)" style="text;html=1;fontStyle=1;rotation=90;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
-          <mxGeometry x="144" y="420" width="110" height="30" as="geometry"/>
+          <mxGeometry x="140" y="540" width="110" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
