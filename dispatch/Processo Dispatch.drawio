@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-28T13:45:35.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="mFneq-j4uGLSZ_6vbzVS" version="12.5.6" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-01-28T14:19:28.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="QyEhdoNphI34O9ZYbtjU" version="12.5.6" type="github" pages="3">
   <diagram name="Fluxo Dispatch" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -254,7 +254,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g-W5R2MN9yb0b111BdQD" name="Fluxo por processo">
-    <mxGraphModel dx="973" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="671" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="3pn0uI4DAiOF2mvPB1Z_-0"/>
         <mxCell id="3pn0uI4DAiOF2mvPB1Z_-1" parent="3pn0uI4DAiOF2mvPB1Z_-0"/>
@@ -277,7 +277,7 @@
           <mxGeometry x="40" y="50" width="70" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-5" value="Dispatch events" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
-          <mxGeometry x="30" y="200" width="100" height="20" as="geometry"/>
+          <mxGeometry x="40" y="200" width="100" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3pn0uI4DAiOF2mvPB1Z_-1" source="-OVT1C5cUAzTDpiUpc-V-6" target="-OVT1C5cUAzTDpiUpc-V-8">
           <mxGeometry relative="1" as="geometry">
@@ -360,7 +360,7 @@
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-29" value="disp.newserv" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
           <mxGeometry x="293" y="480" width="90" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="-OVT1C5cUAzTDpiUpc-V-31" value="Web Socket,(to be definer)" style="text;html=1;fontStyle=1;rotation=90;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
+        <mxCell id="-OVT1C5cUAzTDpiUpc-V-31" value="Web Socket,(to be defined)" style="text;html=1;fontStyle=1;rotation=90;" vertex="1" parent="3pn0uI4DAiOF2mvPB1Z_-1">
           <mxGeometry x="140" y="540" width="110" height="30" as="geometry"/>
         </mxCell>
       </root>
