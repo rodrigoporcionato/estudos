@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-29T21:54:18.133Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="gn3_FKyS08I52l7lWpbI" version="12.6.1" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-01-30T19:38:38.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="BusZ_Yd-61dxtiD0B3vP" version="12.6.1" type="github" pages="2">
   <diagram name="Fluxo Dispatch" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="766" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -254,7 +254,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g-W5R2MN9yb0b111BdQD" name="Fluxo por processo">
-    <mxGraphModel dx="1373" dy="1603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1943" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="3pn0uI4DAiOF2mvPB1Z_-0"/>
         <mxCell id="3pn0uI4DAiOF2mvPB1Z_-1" parent="3pn0uI4DAiOF2mvPB1Z_-0"/>
@@ -277,7 +277,7 @@
           <mxGeometry x="590" y="1170" width="70" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-5" value="&lt;font style=&quot;font-size: 72px&quot;&gt;Dispatch events&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="3pn0uI4DAiOF2mvPB1Z_-1" vertex="1">
-          <mxGeometry x="20" y="30" width="530" height="40" as="geometry"/>
+          <mxGeometry x="14.33" y="30" width="530" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="-OVT1C5cUAzTDpiUpc-V-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="3pn0uI4DAiOF2mvPB1Z_-1" source="-OVT1C5cUAzTDpiUpc-V-6" target="-OVT1C5cUAzTDpiUpc-V-8" edge="1">
           <mxGeometry relative="1" as="geometry">
