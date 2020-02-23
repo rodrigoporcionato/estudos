@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-23T15:43:01.413Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36" etag="FKQhjRpOlYiWCB9wBcl_" version="12.7.4" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-02-23T15:43:37.004Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36" etag="m8tQzpnfmEvDKHRmKjeZ" version="12.7.4" type="github" pages="3">
   <diagram name="Fluxo Dispatch" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="939" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -592,7 +592,7 @@
         <mxCell id="OpZhnxF_T5tySGOica4p-0" />
         <mxCell id="OpZhnxF_T5tySGOica4p-1" parent="OpZhnxF_T5tySGOica4p-0" />
         <mxCell id="OpZhnxF_T5tySGOica4p-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OpZhnxF_T5tySGOica4p-1">
-          <mxGeometry x="20" y="100" width="220" height="360" as="geometry" />
+          <mxGeometry x="50" y="115" width="180" height="335" as="geometry" />
         </mxCell>
         <mxCell id="OpZhnxF_T5tySGOica4p-3" value="Prestador 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OpZhnxF_T5tySGOica4p-1">
           <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
