@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-04-03T16:53:33.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="WCDEhN78VYk7NUzF0-su" version="12.9.5" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-04-03T17:04:22.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="EFLMnjHa4oNrXoJo9jop" version="12.9.5" type="github" pages="2">
   <diagram id="aWNm3aVQX_40gbii_S3l" name="job.scheduller">
     <mxGraphModel dx="1506" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
         <mxCell id="Ztnk9W5pIdXOA8l7FNTL-0" />
         <mxCell id="Ztnk9W5pIdXOA8l7FNTL-1" parent="Ztnk9W5pIdXOA8l7FNTL-0" />
         <mxCell id="Ztnk9W5pIdXOA8l7FNTL-2" value="Processo uber" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-1">
-          <mxGeometry x="10" y="30" width="850" height="480" as="geometry" />
+          <mxGeometry x="10" y="30" width="1070" height="480" as="geometry" />
         </mxCell>
         <mxCell id="Ztnk9W5pIdXOA8l7FNTL-3" value="Mabis" style="swimlane;html=1;startSize=20;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-2">
           <mxGeometry y="20" width="140" height="460" as="geometry" />
@@ -77,8 +77,11 @@
             <mxPoint x="-25" y="12.5" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ztnk9W5pIdXOA8l7FNTL-2" source="Ztnk9W5pIdXOA8l7FNTL-8" target="Ztnk9W5pIdXOA8l7FNTL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ztnk9W5pIdXOA8l7FNTL-4" value="condição.Regras" style="swimlane;html=1;startSize=20;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-2">
-          <mxGeometry x="140" y="20" width="370" height="460" as="geometry" />
+          <mxGeometry x="140" y="20" width="690" height="460" as="geometry" />
         </mxCell>
         <mxCell id="Ztnk9W5pIdXOA8l7FNTL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ztnk9W5pIdXOA8l7FNTL-4" source="Ztnk9W5pIdXOA8l7FNTL-10" target="Ztnk9W5pIdXOA8l7FNTL-22">
           <mxGeometry relative="1" as="geometry">
@@ -94,8 +97,10 @@
         <mxCell id="Ztnk9W5pIdXOA8l7FNTL-10" value="&lt;p&gt;R20?&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-4">
           <mxGeometry x="40" y="52.5" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ztnk9W5pIdXOA8l7FNTL-4" source="Ztnk9W5pIdXOA8l7FNTL-41" target="Ztnk9W5pIdXOA8l7FNTL-43">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ztnk9W5pIdXOA8l7FNTL-4" source="Ztnk9W5pIdXOA8l7FNTL-41" target="Ztnk9W5pIdXOA8l7FNTL-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280.0919540229884" y="92.58333333333337" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ztnk9W5pIdXOA8l7FNTL-41" value="&lt;p&gt;raio&amp;lt;20KM&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-4">
           <mxGeometry x="160" y="52.5" width="80" height="80" as="geometry" />
@@ -103,20 +108,50 @@
         <mxCell id="Ztnk9W5pIdXOA8l7FNTL-46" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-4">
           <mxGeometry x="185" y="190" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-43" value="&lt;p&gt;R41 &amp;lt; 10min&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-4">
-          <mxGeometry x="270" y="52.5" width="80" height="80" as="geometry" />
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ztnk9W5pIdXOA8l7FNTL-4" source="Ztnk9W5pIdXOA8l7FNTL-50" target="Ztnk9W5pIdXOA8l7FNTL-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ztnk9W5pIdXOA8l7FNTL-2" source="Ztnk9W5pIdXOA8l7FNTL-8" target="Ztnk9W5pIdXOA8l7FNTL-10">
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ztnk9W5pIdXOA8l7FNTL-4" source="Ztnk9W5pIdXOA8l7FNTL-50" target="Ztnk9W5pIdXOA8l7FNTL-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-50" value="Tem disponivel?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-4">
+          <mxGeometry x="405" y="150" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ztnk9W5pIdXOA8l7FNTL-4" source="Ztnk9W5pIdXOA8l7FNTL-66" target="Ztnk9W5pIdXOA8l7FNTL-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-66" value="&lt;span style=&quot;white-space: normal&quot;&gt;Check Disponibilidade&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-4">
+          <mxGeometry x="400" y="70" width="120" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-71" value="R41&amp;lt;10 minutos" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-4">
+          <mxGeometry x="375" y="240" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-72" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-4">
+          <mxGeometry x="570" y="165" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ztnk9W5pIdXOA8l7FNTL-2" source="Ztnk9W5pIdXOA8l7FNTL-66" target="Ztnk9W5pIdXOA8l7FNTL-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ztnk9W5pIdXOA8l7FNTL-2" source="Ztnk9W5pIdXOA8l7FNTL-71" target="Ztnk9W5pIdXOA8l7FNTL-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ztnk9W5pIdXOA8l7FNTL-37" value="Uber.API" style="swimlane;html=1;startSize=20;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-2">
-          <mxGeometry x="510" y="20" width="340" height="460" as="geometry" />
+          <mxGeometry x="830" y="20" width="240" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-51" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-37">
-          <mxGeometry x="50" y="40" width="120" height="20" as="geometry" />
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-78" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-37">
+          <mxGeometry x="20" y="43" width="190" height="367" as="geometry" />
         </mxCell>
-        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-50" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-37">
-          <mxGeometry x="100" y="110" width="80" height="80" as="geometry" />
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-59" value="Agenda Uber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-37">
+          <mxGeometry x="55" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-57" value="Check Disponibilidade" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-37">
+          <mxGeometry x="55" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-58" value="Chama Uber" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ztnk9W5pIdXOA8l7FNTL-37">
+          <mxGeometry x="55" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ztnk9W5pIdXOA8l7FNTL-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Ztnk9W5pIdXOA8l7FNTL-2" source="Ztnk9W5pIdXOA8l7FNTL-71" target="Ztnk9W5pIdXOA8l7FNTL-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ztnk9W5pIdXOA8l7FNTL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ztnk9W5pIdXOA8l7FNTL-1" source="Ztnk9W5pIdXOA8l7FNTL-41">
           <mxGeometry relative="1" as="geometry">
