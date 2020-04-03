@@ -1,1 +1,1 @@
-# Arquitetura Uber/Allianz
+# Arquitetura Allianz
